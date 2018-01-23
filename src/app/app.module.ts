@@ -10,7 +10,6 @@ import { MatInputModule, MatAutocompleteModule, MatButtonModule } from '@angular
 import { AppComponent } from './app.component';
 import { BrandSearchComponent } from './brand-search/brand-search.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +21,7 @@ import { BrandSearchComponent } from './brand-search/brand-search.component';
     FormsModule,
     MatInputModule,
     MatButtonModule,
-    MatAutocompleteModule
+    MatAutocompleteModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
