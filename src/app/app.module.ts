@@ -8,11 +8,13 @@ import { FormsModule } from '@angular/forms';
 import { MatInputModule, MatAutocompleteModule, MatButtonModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
+import { BrandSearchComponent } from './brand-search/brand-search.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BrandSearchComponent
   ],
   imports: [
     BrowserModule,
